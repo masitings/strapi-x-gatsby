@@ -1,0 +1,8 @@
+[submodule "cms"]
+	path = cms
+	url = git@github.com:masitings/strapi-x-gatsby.git
+	branch = cms
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:masitings/strapi-x-gatsby.git
+	branch = frontend
