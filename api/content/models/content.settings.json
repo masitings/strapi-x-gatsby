@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "contents",
+  "info": {
+    "name": "Content"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "post_title": {
+      "type": "string"
+    },
+    "post_date": {
+      "type": "date"
+    },
+    "category": {
+      "model": "category"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "gallery": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
